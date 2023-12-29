@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rdps",
+  "info": {
+    "singularName": "rdp",
+    "pluralName": "rdps",
+    "displayName": "RDP"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vps_id": {
+      "type": "string"
+    },
+    "vps_name": {
+      "type": "string"
+    },
+    "vps_ip": {
+      "type": "string"
+    },
+    "vps_status": {
+      "type": "string"
+    }
+  }
+}

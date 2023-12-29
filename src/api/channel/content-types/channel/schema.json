@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "channels",
+  "info": {
+    "singularName": "channel",
+    "pluralName": "channels",
+    "displayName": "Channel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "channel_id": {
+      "type": "string"
+    },
+    "channel_name": {
+      "type": "string"
+    },
+    "stream_key": {
+      "type": "text"
+    },
+    "total_income": {
+      "type": "decimal"
+    },
+    "email": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "OTP_link": {
+      "type": "string"
+    },
+    "email_password": {
+      "type": "string"
+    },
+    "Birth_day": {
+      "type": "date"
+    }
+  }
+}
